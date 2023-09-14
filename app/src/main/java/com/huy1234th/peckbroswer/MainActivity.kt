@@ -11,6 +11,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.huy1234th.peckbroswer.ui.theme.PeckBroswerTheme
+import android.content.Intent
+import android.net.Uri
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
